@@ -1,5 +1,5 @@
 <?php 
-include('koneksi.php');
+include('konek.php');
 require_once("reportpdf/dompdf/autoload.inc.php");
 use Dompdf\Dompdf;
 $dompdf = new Dompdf();
