@@ -1,5 +1,5 @@
 <?php 
-include('koneksi.php');
+include('konek.php');
 $data = mysqli_query($koneksi, "SELECT * from peserta_didik"); 
  ?>
 
